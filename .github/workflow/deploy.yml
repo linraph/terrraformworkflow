@@ -34,3 +34,4 @@ jobs:
 
          - name: deploy terraform to aws
            run: terraform apply --auto-approve
+           
