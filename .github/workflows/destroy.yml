@@ -1,4 +1,4 @@
-ame: Destroy terraform resources
+name: Destroy terraform resources
 
 on:
     workflow_dispatch:
