@@ -5,7 +5,7 @@ resource "aws_instance" "example" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "shabas"
+    Name = "chris"
   Environment = "dev"
   }
 }
