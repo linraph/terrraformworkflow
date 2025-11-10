@@ -1,11 +1,11 @@
 
 
 resource "aws_instance" "example" {
-  ami           ="ami-0360c520857e3138f"
-  instance_type = "t3.micro"
+  ami           =var.ami_id
+  instance_type = var.instance_type
 
   tags = {
-    Name = "massam"
+    Name = var.tags
   Environment = "dev"
   }
 }
