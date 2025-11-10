@@ -4,3 +4,6 @@ module "s3_bucket" {
 module "instance" {
   source = "./modules/instance"
 }
+module "aws_vpc" {
+  source = "./modules/vpc"
+}
