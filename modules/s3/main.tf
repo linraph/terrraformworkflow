@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-1510-bucket"
+  bucket = var.bucket
 
   tags = {
-    Name        = "My bucket"
+    Name        = var.tags
     Environment = "Dev"
   }
 }
