@@ -7,6 +7,6 @@ module "instance" {
 module "aws_vpc" {
   source = "./modules/vpc"
 }
-module "aws_ebs_volume" {
+module "aws_ebs" {
   source = "./modules/ebsvolume"
 }
