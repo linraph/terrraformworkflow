@@ -7,5 +7,5 @@ variable "instance_type" {
 }
 
 variable "tags" {
-  default = "raphael"
+  default = "jjtech"
 }
