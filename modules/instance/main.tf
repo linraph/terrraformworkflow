@@ -6,6 +6,6 @@ resource "aws_instance" "example" {
 
   tags = {
     Name = var.tags
-  Environment = "dev"
+  Environment = "dev 1"
   }
 }
